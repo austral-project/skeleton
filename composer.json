@@ -1,0 +1,66 @@
+{
+    "name": "austral/skeleton",
+    "type": "project",
+    "description": "TODO: bundle description",
+    "keywords": [
+        "austral",
+        "symfony",
+        "bundle",
+        "cms",
+        "admin"
+    ],
+    "homepage": "https://austral.dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthieu Beurel",
+            "email": "matthieu@austral.dev",
+            "role": "Developer"
+        },
+        {
+            "name": "Austral contributors",
+            "homepage": "https://github.com/austral-project/skeleton/graphs/contributors"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/austral-project/skeleton/issues",
+        "source": "https://github.com/austral-project/skeleton",
+        "docs": "https://austral.dev",
+        "security": "https://github.com/austral-project/.github/blob/master/SECURITY.md"
+    },
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.64",
+        "phpstan/phpstan": "^2.0",
+        "phpstan/phpstan-symfony": "^2.0",
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Austral\\Skeleton\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Austral\\Skeleton\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "cs": "php-cs-fixer fix --dry-run --diff",
+        "cs-fix": "php-cs-fixer fix",
+        "phpstan": "phpstan analyse",
+        "test": "phpunit",
+        "check": [
+            "@cs",
+            "@phpstan",
+            "@test"
+        ]
+    }
+}
