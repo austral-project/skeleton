@@ -18,7 +18,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ### Changed
 
-- Symfony 7.4 support, PHP 8.2 minimum.
+- Symfony 7.4 support, PHP 8.4 minimum.
 - Annotations replaced by PHP attributes.
 
 [Unreleased]: https://github.com/austral-project/skeleton/compare/v4.0.0...4.x

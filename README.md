@@ -20,7 +20,7 @@ Starter project for a new Austral application: back office, website and Docker s
 
 ## Requirements
 
-- PHP 8.2 or higher and Composer, or Docker
+- PHP 8.4 or higher and Composer, or Docker
 - A database supported by Doctrine (MySQL / MariaDB or PostgreSQL)
 
 ## Getting started

@@ -30,7 +30,7 @@
         "security": "https://github.com/austral-project/.github/blob/master/SECURITY.md"
     },
     "require": {
-        "php": ">=8.2"
+        "php": ">=8.4"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.64",
