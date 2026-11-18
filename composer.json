@@ -1,13 +1,14 @@
 {
     "name": "austral/skeleton",
     "type": "project",
-    "description": "TODO: bundle description",
+    "description": "Starter project for a new Austral application: back office, website and Docker setup, ready to run.",
     "keywords": [
         "austral",
         "symfony",
-        "bundle",
         "cms",
-        "admin"
+        "admin",
+        "skeleton",
+        "project"
     ],
     "homepage": "https://austral.dev",
     "license": "MIT",
@@ -39,12 +40,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Austral\\Skeleton\\": "src/"
+            "App\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Austral\\Skeleton\\Tests\\": "tests/"
+            "App\\Tests\\": "tests/"
         }
     },
     "config": {
